@@ -8,7 +8,7 @@ land in `opsbear/bear-gitops`.
 | `services/<name>/handlers.py` | That service's own logic. One copy of each defect, so a fix touches one service. |
 | `shared/` | Runtime shared by every service — topology, HTTP fan-out, pool behaviour. |
 
-Services: 
+Services: - storefront-api - order-service - inventory-service - billing-service - shipping-service 
 
 Generated from `demo/bearbank/` in the AutoSRE repo by
 `scripts/demo-seed-repos.sh`. Edit there and re-run, or edit here and port back.
